@@ -1,0 +1,29 @@
+/* CSS Document */
+
+/* colors ----------------------------------------------------------------------------------------- */
+
+
+
+/* imports ----------------------------------------------------------------------------------------- */
+@import "compass/css3/border-radius";	
+@import "compass/css3/box-shadow";
+@import "compass/typography/lists/bullets";
+@import "compass/typography/links/unstyled-link";
+@import "compass/css3/images";
+
+/* mixins ----------------------------------------------------------------------------------------- */
+@mixin txt($thisColor: #333333,$thisSize: 14, $thisLineHeight: auto, $thisAlign: left) {
+	color: #{$thisColor};
+	font-size: #{$thisSize}px;
+	line-height: #{$thisLineHeight}px;
+	text-align: #{$thisAlign};
+}
+
+@mixin size($thisWidth: 320, $thisHeight: 60) {
+	width: #{$thisWidth}px;
+	height: #{$thisHeight}px;	
+}
+
+
+/* styles ----------------------------------------------------------------------------------------- */ 
+
